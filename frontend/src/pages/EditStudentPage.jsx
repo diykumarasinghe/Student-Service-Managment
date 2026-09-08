@@ -75,3 +75,4 @@ const EditStudentPage = () => {
 };
 
 export default EditStudentPage;
+

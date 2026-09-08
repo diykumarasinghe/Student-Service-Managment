@@ -24,3 +24,4 @@ export const deleteCategoryApi = async (id) => {
   const response = await axiosInstance.delete(`/categories/${id}`);
   return response.data;
 };
+

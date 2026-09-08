@@ -15,3 +15,4 @@ public class LoginResponse {
     private String lastName;
     private Long studentId;
 }
+

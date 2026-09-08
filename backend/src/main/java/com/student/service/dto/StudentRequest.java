@@ -46,3 +46,4 @@ public class StudentRequest {
     @NotNull(message = "Status is required.")
     private StudentStatus status;
 }
+

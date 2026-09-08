@@ -102,3 +102,4 @@ export const validateConfirmPassword = (password, confirmPassword) => {
   if (password !== confirmPassword) return 'Passwords do not match.';
   return '';
 };
+

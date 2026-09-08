@@ -37,3 +37,4 @@ public interface ServiceRequestRepository extends JpaRepository<ServiceRequest, 
                                          @Param("categoryId") Long categoryId,
                                          @Param("status") RequestStatus status);
 }
+

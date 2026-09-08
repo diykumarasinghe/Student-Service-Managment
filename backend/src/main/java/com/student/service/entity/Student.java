@@ -49,3 +49,4 @@ public class Student {
     @JoinColumn(name = "user_id")
     private User user;
 }
+

@@ -58,3 +58,4 @@ public class AdminSeeder implements CommandLineRunner {
         }
     }
 }
+

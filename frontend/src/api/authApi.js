@@ -19,3 +19,4 @@ export const getCurrentUserApi = async () => {
   const response = await axiosInstance.get('/auth/me');
   return response.data;
 };
+

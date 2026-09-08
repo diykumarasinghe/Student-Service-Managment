@@ -25,3 +25,4 @@ public class ServiceCategory {
     @Builder.Default
     private boolean active = true;
 }
+

@@ -36,3 +36,4 @@ export const getStudentStatsApi = async () => {
   const response = await axiosInstance.get('/students/stats');
   return response.data;
 };
+

@@ -47,3 +47,4 @@ const StatCard = ({ title, count, icon, color = 'primary' }) => {
 };
 
 export default StatCard;
+

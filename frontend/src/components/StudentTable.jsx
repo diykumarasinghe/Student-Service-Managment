@@ -73,3 +73,4 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
 };
 
 export default StudentTable;
+

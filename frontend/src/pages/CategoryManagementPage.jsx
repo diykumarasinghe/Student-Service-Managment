@@ -315,3 +315,4 @@ const CategoryManagementPage = () => {
 };
 
 export default CategoryManagementPage;
+

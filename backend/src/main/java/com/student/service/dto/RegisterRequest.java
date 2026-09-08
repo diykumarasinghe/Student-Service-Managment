@@ -42,3 +42,4 @@ public class RegisterRequest {
     @NotBlank(message = "Intake is required.")
     private String intake;
 }
+

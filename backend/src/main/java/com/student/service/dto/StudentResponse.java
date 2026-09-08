@@ -21,3 +21,4 @@ public class StudentResponse {
     private LocalDate registrationDate;
     private StudentStatus status;
 }
+

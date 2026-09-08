@@ -13,3 +13,4 @@ public interface ServiceCategoryRepository extends JpaRepository<ServiceCategory
     boolean existsByName(String name);
     List<ServiceCategory> findByActiveTrue();
 }
+

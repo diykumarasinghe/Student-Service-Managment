@@ -6,3 +6,4 @@ public enum RequestStatus {
     COMPLETED,
     REJECTED
 }
+

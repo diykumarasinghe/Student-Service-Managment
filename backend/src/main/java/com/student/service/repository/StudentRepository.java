@@ -27,3 +27,4 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
            "LOWER(s.phoneNumber) LIKE LOWER(CONCAT('%', :query, '%'))")
     List<Student> searchStudents(@Param("query") String query);
 }
+

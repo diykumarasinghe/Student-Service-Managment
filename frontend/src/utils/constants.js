@@ -35,3 +35,4 @@ export const SERVICE_CATEGORIES_DEFAULT = [
   'Technical Support',
   'Other',
 ];
+

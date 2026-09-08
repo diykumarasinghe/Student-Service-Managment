@@ -34,3 +34,4 @@ export const clearAuth = () => {
   removeToken();
   removeUser();
 };
+

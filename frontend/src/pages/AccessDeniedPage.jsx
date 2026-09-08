@@ -19,3 +19,4 @@ const AccessDeniedPage = () => {
 };
 
 export default AccessDeniedPage;
+

@@ -64,3 +64,4 @@ export const sanitizeSubjectInput = (val) => {
   const sanitized = val.replace(/[^A-Za-z0-9 ]/g, '');
   return sanitized.slice(0, 100);
 };
+
