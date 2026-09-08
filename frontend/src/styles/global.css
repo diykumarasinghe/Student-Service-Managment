@@ -1,0 +1,56 @@
+:root {
+  --navy-bg: #0B1F3A;
+  --blue-primary: #1479E8;
+  --blue-hover: #1066c6;
+  --bg-light: #F5F8FC;
+  --success-green: #198754;
+  --warning-amber: #F59E0B;
+  --danger-red: #DC3545;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  background-color: var(--bg-light);
+  color: #2D3748;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.bg-primary-accent {
+  background-color: var(--blue-primary) !important;
+}
+
+.text-primary-accent {
+  color: var(--blue-primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--blue-primary);
+  border-color: var(--blue-primary);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--blue-hover);
+  border-color: var(--blue-hover);
+}
+
+.card {
+  border-radius: 12px;
+}

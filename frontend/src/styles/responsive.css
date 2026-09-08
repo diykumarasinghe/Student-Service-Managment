@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+  .auth-card {
+    border-radius: 16px;
+    padding: 1.5rem;
+  }
+
+  .table-responsive {
+    border-radius: 8px;
+  }
+}
